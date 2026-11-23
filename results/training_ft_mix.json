@@ -1,0 +1,55 @@
+{
+  "variant": "ft_mix",
+  "base_model": "unsloth/Llama-3.2-3B-Instruct",
+  "quick_mode": false,
+  "n_train": 1620,
+  "n_eval": 150,
+  "minutes": 10.2,
+  "trainable_params": 24313856,
+  "final_train_loss": 3.065622584025065,
+  "eval_loss_base": 4.187121868133545,
+  "eval_loss_ft": 2.5334134101867676,
+  "ppl_base": 65.83304185429341,
+  "ppl_ft": 12.59642961844332,
+  "log": [
+    {
+      "loss": 3.811894989013672,
+      "grad_norm": 1.7820212841033936,
+      "learning_rate": 8e-05,
+      "epoch": 0.3333333333333333,
+      "step": 5
+    },
+    {
+      "loss": 2.8592849731445313,
+      "grad_norm": 0.8933286070823669,
+      "learning_rate": 0.00018,
+      "epoch": 0.6666666666666666,
+      "step": 10
+    },
+    {
+      "loss": 2.5256877899169923,
+      "grad_norm": 0.40793269872665405,
+      "learning_rate": 4e-05,
+      "epoch": 1.0,
+      "step": 15
+    },
+    {
+      "train_runtime": 610.1368,
+      "train_samples_per_second": 0.197,
+      "train_steps_per_second": 0.025,
+      "total_flos": 8165942866710528.0,
+      "train_loss": 3.065622584025065,
+      "epoch": 1.0,
+      "step": 15
+    },
+    {
+      "eval_loss": 2.5334134101867676,
+      "eval_model_preparation_time": 0.0301,
+      "eval_runtime": 19.2047,
+      "eval_samples_per_second": 7.811,
+      "eval_steps_per_second": 1.979,
+      "epoch": 1.0,
+      "step": 15
+    }
+  ]
+}

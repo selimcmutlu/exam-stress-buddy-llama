@@ -1,0 +1,8 @@
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+adapter_*/
+checkpoints_*/
+*.zip
+*.tar.gz
+*.safetensors
